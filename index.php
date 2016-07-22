@@ -5,7 +5,7 @@ ini_set('display_errors', 'on');
 
 // Let's define very primitive autoloader
 spl_autoload_register(function($classname){	
-    $classname = str_replace('Api_', 'Apis/', $classname);    
+    $classname = str_replace('Api_', '', $classname);    
     if (file_exists(__DIR__.'/'.$classname.'.php')) {
         require __DIR__.'/'.$classname.'.php';
     }
