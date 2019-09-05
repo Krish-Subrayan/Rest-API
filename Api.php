@@ -1,7 +1,7 @@
 <?php
 define('YOUR_TOKEN_HERE', 'Test');
 define('TOKEN_COOKIE_NAME', '');
-define('DB_PATH',$_SERVER['DOCUMENT_ROOT'].'/445/includes/Messenger.php');
+define('DB_PATH',$_SERVER['DOCUMENT_ROOT'].'/Messenger.php');
 class Api
 {
     const STATUS_OK = 'OK'; 
